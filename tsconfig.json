@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "baseUrl": ".",
+    "outDir": "./be-dist",
+    "module": "CommonJS"
+  },
+  "include": ["server/*.ts"]
+}
