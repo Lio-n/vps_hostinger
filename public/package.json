@@ -1,6 +1,0 @@
-{
-  "name": "express_react",
-  "version": "1.0.0",
-  "license": "MIT",
-  "proxy": "http://localhost:3000/"
-}
