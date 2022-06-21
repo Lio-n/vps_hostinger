@@ -32,7 +32,7 @@
     "build:fr": "cross-env NODE_ENV=production webpack",
     "dev:bk": "nodemon --watch './server/index.ts' --exec 'ts-node ./server/index.ts'",
     "build:bk": "tsc",
-    "build": "concurrently \"yarn build:fr\" \"yarn build:bk\"",
+    "build": "yarn build:fr && yarn build:bk",
     "start": "node be-dist",
     "dev": "concurrently \"yarn dev:fr\" \"yarn dev:bk\" "
   },
