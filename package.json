@@ -35,12 +35,5 @@
     "build": "yarn build:fr && yarn build:bk",
     "start": "node be-dist",
     "dev": "concurrently \"yarn dev:fr\" \"yarn dev:bk\" "
-  },
-  "devDependencies": {
-    "css-loader": "^6.7.1",
-    "live-server": "^1.2.2",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-router-dom": "^6.3.0"
   }
 }
