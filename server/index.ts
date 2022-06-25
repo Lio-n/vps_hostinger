@@ -18,7 +18,7 @@ app.get("/api/goodbye", (req, res) => {
 });
 
 // All other unmatched requests will return the React app
-app.get("/", (req, res) => {
+app.get("*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "../index.html"));
 });
 
